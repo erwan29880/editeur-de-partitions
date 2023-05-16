@@ -1,0 +1,135 @@
+body {
+    background-color: #eee;
+    background:URL('FondBois2.jpg') center ; 
+    background-size:100% 100%;
+} 
+
+a, a:hover, a:visited{
+    text-decoration:none;
+    color:black;
+}
+
+.bouton{
+    background-color:white;
+    width:150px;
+    margin-bottom:5px;
+    padding:2px;
+}
+
+.bouton:hover{
+    text-decoration:underline;
+}
+
+h1{
+    width:98%;
+    margin:auto;
+    text-shadow:2px 2px 2px grey;
+    margin-bottom:30px;
+    text-align:center;
+    color:white;
+}
+
+h2{
+    width:60%;
+    margin:auto;
+    color:white;
+    font-size:1em;
+    text-align:center;
+}
+
+#principal{
+    width:60%;
+    margin:auto;
+    margin-bottom:100px;
+}	
+	
+#formulairePrincipal{
+    width:90%;
+    margin:auto;
+}
+
+#write{
+    width:98%;
+    margin:auto;
+    margin-top:35px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    border: 1px solid #f9f9f9;
+    box-shadow:1px 1px 1px grey;
+    font: 1em/1.5 Verdana, Sans-Serif;
+    background: #fff;
+}
+
+#corgeron{
+    background-color:white;
+    padding:3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow:2px 2px 2px grey;
+    width:70%;
+    margin:auto;
+    margin-bottom:20px;
+    text-align:left;
+}
+
+#valider{
+    width:30%;
+    margin:auto;
+}
+
+input[type=submit]{
+    padding:5px 15px;
+    background:white;
+    border:1px solid black;
+    box-shadow:2px 2px 4px grey;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover{
+    border:1px solid grey;
+    cursor:pointer;
+    opacity:0.9;
+}
+
+#cliquer{
+    width:30%;
+    margin:auto;
+    padding:3px; 
+    background:white;
+    text-align:center;
+    border:1px solid black;
+    box-shadow:2px 2px 2px grey;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+#resultat{
+    width:80%;
+    text-align:center;
+    margin:auto;
+    background-color:red;
+}
+
+
+#reinitialiser{
+    position:absolute;
+    top:10px;
+    left:10px;
+    color:black;
+    padding:5px;
+}
+
+#imagee{
+    width:16px;
+    margin:auto;
+}
+
+#clavier{
+    width:60%;
+    margin:auto;
+}
+
+img{
+    width:99%;
+}

@@ -1,0 +1,188 @@
+html{
+    width:100%;
+    background-color: #eee;
+    background:URL('FondBois2.jpg') center ; 
+    background-size:100% 100%;
+}
+
+body {
+    width:1000px;
+    margin:auto;
+    color:white;
+}
+
+h1{
+    margin-top:20px;
+    text-align:center;
+    margin-bottom:60px;
+    text-shadow:1px 1px 2px black;
+}
+
+h2{
+    margin-top:30px;
+    text-align:center;
+    margin-bottom:60px;
+    text-shadow:1px 1px 2px black;
+}
+
+h3{
+    margin-top:30px;
+    text-align:center;
+    margin-bottom:30px;
+    text-shadow:1px 1px 2px black;
+}
+
+.pourCentrer{
+    margin:auto;
+    background-color:#fff;
+    width:86%;
+    border:1px solid black;
+    padding:2%;
+    margin-bottom:50px;
+}
+
+.changeonsDeCouleur{
+    width:94%;
+    margin:auto;
+    background-color:white;
+    box-shadow:3px 3px 6px black;
+    border-radius:5px;
+}
+
+.MiseEnFormeTab{
+    width:95%;
+    margin:auto;
+}
+
+#imageR{
+    border:1px solid black;
+    box-shadow:3px 3px 6px grey;
+}
+
+#recupereABC{
+    width:40%;
+    color:black;
+    margin:auto;
+    background-color:white;
+    padding:20px;
+    margin-top:50px;
+    padding-bottom:50px;
+    box-shadow:3px 3px 6px grey;
+    border-radius:5px;
+    overflow:scroll;
+}
+
+.infoABC{
+    width:76%;
+    padding:2%;
+    margin:auto;
+    margin-bottom:5px;
+}
+    
+.centrer{
+    text-align:center;
+}
+
+#abctext{
+    width:40%;
+    background-color:white;
+    border:1px solid black;
+    margin:auto;
+    line-height:2;
+}
+
+.abcrendered{
+    width:70%;
+    margin:auto;
+}
+
+#notation{
+    width:70%;
+    margin:auto;
+    color:black;
+    background-color:white;
+    text-align:center;
+    margin-top:30px;
+}
+
+#notation2{
+    width:40%;
+    margin:auto;
+    margin-top:30px;
+}
+
+.renderABC{
+    width:70%;
+    margin:auto;
+    background-color:white;
+}
+
+#pourCentrerMidi{
+    width:40%;
+    margin:auto;
+}
+
+.renderMidi{
+    width:40%;
+    margin:auto;
+}
+
+.midiMiseEnForme{
+    text-align:center;
+    color:black;
+    font-size:1.2em;
+    border:1px solid black;
+    border-radius:5px;
+    padding:5px;
+    background-color:#fff;
+}
+
+.midiMiseEnForme a{
+    text-decoration:none;
+    color:black;
+}
+
+.midiMiseEnForme:hover{
+    border-color: #e5e5e5;
+    cursor: pointer;
+}
+
+.infoABC a{
+    color:white;
+    text-decoration:underline;
+}
+
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+}
+table td{
+    border-top:1px solid black;
+    padding:10px;
+}
+.double{
+    border-right:double;
+}
+
+.retour{
+position:fixed;
+    top:20px;
+    left:20px;
+    border:1px solid black;
+    border-radius:5px 5px 5px 5px;
+    box-shadow:3px 3px 6px grey;
+    background-color:white;
+    padding:5px 6px 5px 6px;
+}
+
+a{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+.retour a{
+    text-decoration:none;
+    color:black;
+}
