@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   mysqlsite:
-    image: mysql:8.0.0
+    build:
+      context: .
+      dockerfile: DockerfileSql
     container_name: datasite1
     environment:
       - MYSQL_ROOT_PASSWORD=pa
